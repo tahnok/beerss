@@ -14,6 +14,13 @@ It works by checking to see if the comment on the most recent matches the url of
 
 Note: If you aren't starting from a fresh goal, you should edit your most recent beeminder datapoint's comment to be the url of your last blog post
 
+### With cron
+
+I've setup cron to run this scrip every few hours when I'd normally be posting
+
+ 1. `crontab -e`
+ 2. Put `0 10,18,22 * * * /path/to/beerss/beerss.rb`
+
 ## License
 
 MIT
